@@ -1,6 +1,6 @@
 # Projeto LOTO FÁCIL
-### Projeto para um sistema de loteria chamado LOTO FÁCIL, em **Java**, com um menu básico no qual o usuário pode selecionar uma opção e a partir da escolha feita, será apresentado os comandos seguintes para executar a função desejada.
-### Nessa primeira parte do Projeto, ele é exibido sem **interface gráfica**, sendo assim, tudo é apresentado no terminal da IDE utilizada.
+### Projeto para um sistema de loteria chamado LOTO FÁCIL, em **Java**, com um menu básico no qual o usuário pode selecionar uma opção de apostas, e a partir da escolha feita, será apresentado os comandos seguintes que apresenta a função desejada.
+### O projeto já com dois arquivos disponibilizados, é apresentado com a possibilidade de rodar **sem interface gráfica** ou **com interface gráfica**.
 
 ⚙️ **Rodando o projeto**
 > Possuir o JDK 21.0.2;
@@ -8,7 +8,8 @@
   * java.util.Scanner;
   * java.util.Random;
   * java.io.IOException;
-> Executar o arquivo MenuLOTOFACIL.java;
+  * import javax.swing.*; (Possibilita a interface gráfica, sendo a biblioteca SWING a selecionada para este projeto);
+> Executar o arquivo MenuLOTOFACIL.java sSem interface gráfica) ou MenuLOTOFACILInterface.java (com interface gráfica).
 
 
 
